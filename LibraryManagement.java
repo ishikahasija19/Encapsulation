@@ -1,4 +1,4 @@
-package pillars.Encapsulation;
+
 abstract class LibraryItem{
     String itemId;
     String title;
@@ -47,7 +47,7 @@ class DVD extends LibraryItem{
         System.out.println("Loan Duration for DVD: 3 days");
     }
 }
-public class LMS {
+public class LibraryManagement {
     public static void main(String[] args) {
         LibraryItem book = new Book("B001", "Effective Java", "Joshua Bloch", 416);
         LibraryItem magazine = new Magazine("M001", "National Geographic", "Various", 202);
