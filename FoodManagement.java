@@ -1,4 +1,3 @@
-package pillars.Encapsulation;
 interface Discountable{
     void applyDiscount(double percentage);
     void getDiscountDetails();
@@ -58,7 +57,7 @@ class NonVegItem extends FoodItem implements Discountable{
         System.out.println("Non-Veg items have an additional charge of " + extraCharges + " per item.");
     }
 }
-public class FDS {
+public class FoodManagement {
     public static void main(String[] args) {
         VegItem vegItem = new VegItem("Veg Pizza", 300, 2, 3);
         NonVegItem nonVegItem = new NonVegItem("Chicken Burger", 250, 1, 2);
