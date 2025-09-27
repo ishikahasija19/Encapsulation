@@ -50,7 +50,7 @@ class DVD extends LibraryItem{
 public class LibraryManagement {
     public static void main(String[] args) {
         LibraryItem book = new Book("B001", "Effective Java", "Joshua Bloch", 416);
-        LibraryItem magazine = new Magazine("M001", "National Geographic", "Various", 202);
+        LibraryItem magazine = new Magazine("M001", "lessons of truth", "Mahatma gandhi", 202);
         LibraryItem dvd = new DVD("D001", "Inception", "Christopher Nolan", 148);
 
         book.getItemDetails();
