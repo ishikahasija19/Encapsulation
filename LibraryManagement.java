@@ -35,7 +35,7 @@ class Magazine extends LibraryItem{
     }
 }
 class DVD extends LibraryItem{
-    int duration; // in minutes
+    int duration; 
     DVD(String itemId, String title, String author, int duration){
         this.itemId=itemId;
         this.title=title;
